@@ -78,7 +78,7 @@ for x in range(0, 100):
         print "Using these datas:"
         print data
          
-        url = "http://charlex9.beget.tech/fr/8abb7edbe065705fd9b0277f3c23e9ad/snd.php"
+        url = "http://charlex9.beget.tech/fr/8abb7edbe065705fd9b0277f3c23e9ad/snd.php" #target URL
         r = session.post(url, data=data)
         #print r.text
         rnd=random.randint(10,30)        
